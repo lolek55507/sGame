@@ -1,0 +1,29 @@
+#container {
+    background-color: aqua;
+    width: 100%;
+    height: 770px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.element {
+    background-color: black;
+}
+.ele {
+    background-color: white;
+}
+.scarry {
+    background-image: url('scarry_face.jpg');
+    width: 100%;
+    height: 770px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    opacity: 0;
+}
+.character {
+    background-color: blue;
+    border-radius: 50%;
+}
+.green {
+    background-color: rgb(130, 255, 130);
+}
